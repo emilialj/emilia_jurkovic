@@ -1,0 +1,223 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+    position:relative;
+  background-image: url(slike/pocetnaa.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+   .bg {
+    position:relative;
+  background-image: url(slike/pocetna2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+}
+   
+    .button {
+        margin:10px;
+        background-color: transparent;
+        border: 0px solid white;
+        color: white;
+        padding:10px;
+        font-family: "Alumni Sans", sans-serif !important;
+       font-size: 30px;
+
+    }
+   .index:hover{
+      text-decoration: underline;
+       color: white;
+    }
+
+    .index {
+        text-decoration: none;
+        color: white;
+        font-family: "Roboto", sans-serif !important;
+              font-weight: 300 !important;
+    }
+    .absoluteind{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);   
+    }
+
+
+
+
+
+
+
+
+        *{
+        margin: 0px;
+        padding: 0px;
+    }
+    h1 {
+        font-family: "Alumni Sans", sans-serif !important;
+    }
+   body {
+      background-color: black;
+   }
+   .navbar {
+      background-color: black !important;
+      color: white !important;
+   }
+   .nav-link {
+      color: white !important;
+      font-family: "Roboto", sans-serif !important;
+              font-weight: 300;
+      font-size: 20px;
+   }
+   .nav-link:hover{
+      text-decoration: underline;
+   }
+
+        .containerter {
+  position: relative;
+}
+
+.centerr {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+    color: white
+}
+    #more {
+        display: none;
+    }
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    .map-responsive{
+       display: flex;
+       margin-top: 5%;
+        margin-bottom: 5%;
+       height: 450px;
+       align-items: center;
+       justify-content: center;
+}
+ h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
+   .fsli {
+            width: 50px !important;
+            height: 50px !important;
+            padding: 5px !important;
+        }
+   #mob{
+      display:none;
+   }
+   @media screen and (max-width: 768px) {
+  #mob {
+    display: block;
+  }
+}
+     @media screen and (max-width: 768px) {
+  #mobb {
+    display: none;
+  }
+}
+    .par {
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: "Roboto", sans-serif !important;
+        font-weight: 300;
+    }
+    @media screen and (max-width: 768px) {
+  .par {
+        margin-left: 15px;
+        margin-right: 15px;
+  }
+}
+    @media screen and (max-width: 992px) {
+  .par {
+        margin-left: 70px;
+        margin-right: 70px;
+  }
+}
+     .accordion-item {
+        margin-left: 300px;
+        margin-right: 300px;
+        font-family: "Roboto", sans-serif !important;
+        font-weight: 300;
+    }
+    @media screen and (max-width: 768px) {
+  .accordion-item {
+        margin-left: 20%;
+        margin-right: 20%;
+  }
+}
+    @media screen and (max-width: 992px) {
+  .accordion-item {
+        margin-left: 20%;
+        margin-right: 20%;
+  }
+}
+   .term {
+      background-image: url(slike/termini.jpg);
+         padding-top: 30px;
+      padding-bottom: 30px;
+   }
+
+
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+    border: 2px solid white;
+    color: white;
+    font-family: "Roboto", sans-serif !important;
+        font-weight: 300;
+}
+
+    @media screen and (max-width: 992px) {
+  .button {
+        font-size: 20px;
+     margin: auto;
+  
+  }
+}
